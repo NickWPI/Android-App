@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/details_scroll_view">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/details_linear_layout">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.15"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:gravity="left|bottom"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text="Bitcoin (BTC)"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/details_name_text"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.75"
+                        android:gravity="left|center"
+                        android:paddingLeft="20dp"
+                        android:text="$6400.67"
+                        android:textSize="50dp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/details_price_text"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.20"
+                        android:gravity="left|bottom"
+                        android:textSize="16dp"
+                        android:paddingLeft="20dp"
+                        android:text="+50(1.36%)"
+                        android:id="@+id/details_change_text"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.20"
+                        android:gravity="left|top"
+                        android:paddingLeft="20dp"
+                        android:text="as of 10/20/18, 2:30pm"
+                        android:id="@+id/details_time_stamp_text"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.20"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="20dp"
+                        android:textSize="12sp"
+                        android:text="CryptoCompare"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.20"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="20dp"
+                        android:textSize="14sp"
+                        android:text="CCCAGG"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/details_exchange_text"/>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.20"
+                        android:paddingLeft="20dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/exchange_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exchange"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="bottom|right" />
+
+            </FrameLayout>
+
+            <WebView
+                android:layout_below="@id/details_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:id="@+id/web_view"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_view">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/details_recycler_view"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

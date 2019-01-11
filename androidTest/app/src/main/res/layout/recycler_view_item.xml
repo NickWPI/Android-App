@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:id="@+id/recycler_view_item">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="20dp"
+        android:text="8"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+W
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="top|center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="bottom|center_horizontal"
+            android:textStyle="bold"
+            android:text="pctchange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="top|center_horizontal"
+            android:text="change" />
+    </LinearLayout>
+
+</LinearLayout>
+<!--
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="test" /> -->
+<!--android:background="#5F00"
+android:background="#5588ff00"
+android:background="#55ffe600"
+android:background="#5500ccff"
+android:background="#55a872e2"-->
