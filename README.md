@@ -11,8 +11,8 @@ This is a work-in-progress app that I am just doing for my own interest/practice
   - Streams current prices and relevant statistics
   - Displays a chart
   - Choose from a variety of exchanges
-Watchlist section so the user can save and watch certain trading pairs
-News section which provides news articles about cryptocurrency related topics
+- Watchlist section so the user can save and watch certain trading pairs
+- News section which provides news articles about cryptocurrency related topics
 
 
 ## Data Provider
