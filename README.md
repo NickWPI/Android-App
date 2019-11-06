@@ -11,7 +11,7 @@ Lists the top cryptocurrencies on the front page, displaying the latest pricing 
 Detailed pages for each trading pair
 - Streams current prices and relevant statistics
 - Displays a chart
-- Select price based from a variety of exchanges
+- Choose from a variety of exchanges
 
 Watchlist section so the user can save and watch certain trading pairs
 
