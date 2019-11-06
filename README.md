@@ -1,5 +1,5 @@
 # Cryptocurrency App
-This is a work-in-progress app that I am just doing for my own interest/practice. It is incomplete and there are still a lot of things to do and fix. The project is inside the androidTest folder.
+Android App streaming cryptocurrency trading pairs.
 
 ## Language and Technologies Used
 - Java
