@@ -6,15 +6,12 @@ This is a work-in-progress app that I am just doing for my own interest/practice
 - Android
 
 ## Features
-Lists the top cryptocurrencies on the front page, displaying the latest pricing information
-
-Detailed pages for each trading pair
-- Streams current prices and relevant statistics
-- Displays a chart
-- Choose from a variety of exchanges
-
+- Lists the top cryptocurrencies on the front page, displaying the latest pricing information
+- Detailed pages for each trading pair
+  - Streams current prices and relevant statistics
+  - Displays a chart
+  - Choose from a variety of exchanges
 Watchlist section so the user can save and watch certain trading pairs
-
 News section which provides news articles about cryptocurrency related topics
 
 
