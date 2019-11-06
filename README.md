@@ -16,7 +16,7 @@ Android App streaming cryptocurrency trading pairs.
 
 
 ## Data Provider
-For this demo, I am using **Cryptocompare** to retrieve historical cryptocurrency data. All of the coins listed
+I am using **Cryptocompare** to retrieve historical cryptocurrency data. All of the coins listed
 on cryptocompare are searchable within this app. After searching various providers, Cryptocompare seems to be the
 best provider avaliable, and the API is wonderful.
 
