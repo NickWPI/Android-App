@@ -5,6 +5,19 @@ This is a work-in-progress app that I am just doing for my own interest/practice
 - Java
 - Android
 
+## Features
+Lists the top cryptocurrencies on the front page, displaying the latest pricing information
+
+Detailed pages for each trading pair
+- Streams current prices and relevant statistics
+- Displays a chart
+- Select price based from a variety of exchanges
+
+Watchlist section so the user can save and watch certain trading pairs
+
+News section which provides news articles about cryptocurrency related topics
+
+
 ## Data Provider
 For this demo, I am using **Cryptocompare** to retrieve historical cryptocurrency data. All of the coins listed
 on cryptocompare are searchable within this app. After searching various providers, Cryptocompare seems to be the
